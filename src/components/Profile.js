@@ -23,7 +23,7 @@ class Profile extends Component {
             return (
                 <div className="container mt-5">
                     <Jumbotron >
-                        <img src={`https://mongooseputra.herokuapp.com/${this.state.data._id}/avatar`}  alt="Please choose your avatar" key={new Date()} />
+                        <img src={`https://mongooseputra.herokuapp.com/users/${this.state.data._id}/avatar`}  alt="Please choose your avatar" key={new Date()} />
                         <h1 className="display-3">Hello, {this.state.data.name}</h1>
                         <p className="lead"></p>
                     </Jumbotron>
