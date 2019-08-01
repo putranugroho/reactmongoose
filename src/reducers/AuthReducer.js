@@ -16,7 +16,7 @@ export default (data = init, action) => {
             return {
                 ...data,
                 id: "",
-                username: ""
+                name: ""
             }
     
         default:
